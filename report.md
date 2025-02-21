@@ -1,7 +1,7 @@
 # ZAP Security Report
 
 ## Summary
-**Date:** February 21, 2025  
+**Date:** February 20, 2025  
 **Target URL:** https://example.com  
 **Scan Duration:** 30 minutes  
 **Total Issues Found:** 5  
