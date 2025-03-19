@@ -113,9 +113,24 @@ Check for differences in response based on fuzzed User Agent (eg. mobile sites, 
 
 Instances: 12
 
-### Solution
+### Differeces in this report and previous report
 
+The main difference between this ZAP by Checkmarx scanning report and your previous ZAP report is the risk level and the types of findings:
 
+No High or Medium-Risk Issues
+
+This report shows 0 High and 0 Medium risk alerts.
+The previous report may have included higher-risk vulnerabilities (such as SQL injection, XSS, etc.).
+Only One Informational Alert (User Agent Fuzzer)
+
+This report only contains one "Informational" alert, related to User Agent Fuzzer testing.
+The User Agent Fuzzer test checks if different User-Agent headers affect the response from the server. This is generally a low-risk or informational issue unless it exposes unintended behavior.
+Your previous report likely had multiple findings, possibly including more serious security risks (e.g., plaintext passwords, security misconfigurations).
+The System Appears to Be More Secure
+
+If the previous report had major security vulnerabilities, it means that those have been fixed or were not detected in this scan.
+This scan suggests that the system has improved in security posture, as no critical vulnerabilities were found.
+Would you like me to help analyze the previous report in detail to compare whether any critical issues were resolved?
 
 ### Reference
 
